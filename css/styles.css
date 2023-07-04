@@ -1,0 +1,136 @@
+#title {
+    background-color: #FFEF82;
+    color: black;
+}
+h1 {
+    font-family: 'Montserrat';
+    size: 4rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+h2 {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3rem;
+
+}
+body {
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+.container-fluid {
+    padding: 5% 15% 0 15%;
+}
+.navbar {
+    padding: 0 0 2.5rem;
+}
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+.nav-item {
+    padding: 0% 18px;
+}
+.nav-link {
+    font-size: 1.2rem;
+}
+/* Button margin downlOAD */
+.margin-but {
+    margin: 5% 4% 0 0;
+}
+.imgr {
+    transform: rotate(25deg);
+    position: absolute;
+}
+#features {
+    text-align: center;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.row {
+        padding: 8% 16%;
+        
+}
+.col-lg-4 {
+    padding: 0 5%;
+}
+.fa-4x {
+    padding: 3%;
+}
+.fa-4x:hover {
+   color: #F2DF3A;
+}
+
+/* tesimonial section */
+#testimonials {
+    
+    text-align: center;
+    background-color: #F2DF3A;
+}
+.testi-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 2%;
+}
+/* Press */
+#press {
+    background-color: #F2DF3A;
+    padding-bottom: 5%;
+    text-align: center;
+}
+.press-img {
+    margin: 0 2% ;
+    width: 15%;
+}
+.carousel-item {
+    padding: 5% 20% 2% 20%;
+}
+.card-body {
+    text-align: center;
+}
+/* pricing */
+.btn1 {
+    width: 80%;
+}
+#pricing {
+    padding: 50px 50px 0 50px;
+    text-align: center;
+}
+.price-col {
+    padding: 0% 3%;
+}
+/* responsive */
+@media (max-width: 1032px)
+{
+    #title {
+        text-align: center;
+    }
+    .imgr {
+        transform: rotate(0);
+        position: static;
+    }   
+}
+/* call to action */
+#cta {
+    background-color: #FFEF82;
+    padding: 5% 25%;
+    text-align: center;
+
+}
+.h3a {
+    font-family: 'Montserrat';
+  font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+#footer {
+    padding: 5% 40%;
+    text-align: center;
+}
+.contact {
+    margin: 0% 2% 4% 2%;
+}
